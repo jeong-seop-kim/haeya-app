@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A580D0379E91A37EFC81CF /* libPods-haeyaexpo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF9E5DF9C801323F91C475C /* libPods-haeyaexpo.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2858779CB6F7B1929E3FDCB8 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421A1A728FC69A1CA43F59E /* ExpoModulesProvider.swift */; };
+		2B3F0F8276C17A510FE0059D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E7DBEA604CD88C12D8B3471C /* PrivacyInfo.xcprivacy */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		7E79CA4C82D11DF0EB226E16 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2492D0FDA9A39507EFA42EB /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		E7FF9FAAD48251F659582509 /* libPods-haeyaexpo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AC0776C455F5C37C0B75B6 /* libPods-haeyaexpo.a */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		F689A1FE8AAE96AA0E8A589E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = AC8C4D7E1A15DCF3DC27DE46 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0421A1A728FC69A1CA43F59E /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-haeyaexpo/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* haeyaexpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haeyaexpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = haeyaexpo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = haeyaexpo/Info.plist; sourceTree = "<group>"; };
-		37AC0776C455F5C37C0B75B6 /* libPods-haeyaexpo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haeyaexpo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EBB0C1EBA17247C38F59DAB /* Pods-haeyaexpo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haeyaexpo.release.xcconfig"; path = "Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo.release.xcconfig"; sourceTree = "<group>"; };
-		A2530835BA16CA2F39929AC4 /* Pods-haeyaexpo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haeyaexpo.debug.xcconfig"; path = "Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF9E5DF9C801323F91C475C /* libPods-haeyaexpo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-haeyaexpo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = haeyaexpo/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AC8C4D7E1A15DCF3DC27DE46 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = haeyaexpo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B2492D0FDA9A39507EFA42EB /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-haeyaexpo/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		E7DBEA604CD88C12D8B3471C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = haeyaexpo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E8E37EFC2A8C282F0512A3D7 /* Pods-haeyaexpo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haeyaexpo.release.xcconfig"; path = "Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo.release.xcconfig"; sourceTree = "<group>"; };
+		EB08E221301F527FBC85CCD7 /* Pods-haeyaexpo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-haeyaexpo.debug.xcconfig"; path = "Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = haeyaexpo/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* haeyaexpo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "haeyaexpo-Bridging-Header.h"; path = "haeyaexpo/haeyaexpo-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,21 +37,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7FF9FAAD48251F659582509 /* libPods-haeyaexpo.a in Frameworks */,
+				13A580D0379E91A37EFC81CF /* libPods-haeyaexpo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A4E8DB3F09A2AEEB675F726 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				34C43B3749A679DD2150BEC8 /* haeyaexpo */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* haeyaexpo */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				AC8C4D7E1A15DCF3DC27DE46 /* PrivacyInfo.xcprivacy */,
+				E7DBEA604CD88C12D8B3471C /* PrivacyInfo.xcprivacy */,
 			);
 			name = haeyaexpo;
 			sourceTree = "<group>";
@@ -70,17 +62,25 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				37AC0776C455F5C37C0B75B6 /* libPods-haeyaexpo.a */,
+				7FF9E5DF9C801323F91C475C /* libPods-haeyaexpo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		34C43B3749A679DD2150BEC8 /* haeyaexpo */ = {
+		3DDFE2DB2BB520F44F00500C /* haeyaexpo */ = {
 			isa = PBXGroup;
 			children = (
-				0421A1A728FC69A1CA43F59E /* ExpoModulesProvider.swift */,
+				B2492D0FDA9A39507EFA42EB /* ExpoModulesProvider.swift */,
 			);
 			name = haeyaexpo;
+			sourceTree = "<group>";
+		};
+		507577AAA9FD7531E157A7D3 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				3DDFE2DB2BB520F44F00500C /* haeyaexpo */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -97,8 +97,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				C465711DA22DB0C0D3521F20 /* Pods */,
-				0A4E8DB3F09A2AEEB675F726 /* ExpoModulesProviders */,
+				EB4AFA0D8E86A107AC03ED3E /* Pods */,
+				507577AAA9FD7531E157A7D3 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -122,11 +122,11 @@
 			path = haeyaexpo/Supporting;
 			sourceTree = "<group>";
 		};
-		C465711DA22DB0C0D3521F20 /* Pods */ = {
+		EB4AFA0D8E86A107AC03ED3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A2530835BA16CA2F39929AC4 /* Pods-haeyaexpo.debug.xcconfig */,
-				6EBB0C1EBA17247C38F59DAB /* Pods-haeyaexpo.release.xcconfig */,
+				EB08E221301F527FBC85CCD7 /* Pods-haeyaexpo.debug.xcconfig */,
+				E8E37EFC2A8C282F0512A3D7 /* Pods-haeyaexpo.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "haeyaexpo" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				C668EC2C3B6D1D81B178AC86 /* [Expo] Configure project */,
+				75ED45FFDE12A00966F0552B /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				B045C892BAA73A2977DCDD82 /* [CP] Embed Pods Frameworks */,
+				3A9285E83F12B5958AF4195C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				F689A1FE8AAE96AA0E8A589E /* PrivacyInfo.xcprivacy in Resources */,
+				2B3F0F8276C17A510FE0059D /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +240,43 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3A9285E83F12B5958AF4195C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75ED45FFDE12A00966F0552B /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-haeyaexpo/expo-configure-project.sh\"\n";
+		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,43 +313,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B045C892BAA73A2977DCDD82 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-haeyaexpo/Pods-haeyaexpo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C668EC2C3B6D1D81B178AC86 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-haeyaexpo/expo-configure-project.sh\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				2858779CB6F7B1929E3FDCB8 /* ExpoModulesProvider.swift in Sources */,
+				7E79CA4C82D11DF0EB226E16 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +330,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2530835BA16CA2F39929AC4 /* Pods-haeyaexpo.debug.xcconfig */;
+			baseConfigurationReference = EB08E221301F527FBC85CCD7 /* Pods-haeyaexpo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -366,7 +366,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EBB0C1EBA17247C38F59DAB /* Pods-haeyaexpo.release.xcconfig */;
+			baseConfigurationReference = E8E37EFC2A8C282F0512A3D7 /* Pods-haeyaexpo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
