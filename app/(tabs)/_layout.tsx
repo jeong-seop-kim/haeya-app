@@ -1,17 +1,21 @@
-import { Tabs } from "expo-router";
+import { Tabs, usePathname } from "expo-router";
 import React from "react";
-import { Platform } from "react-native";
+import { Platform, ViewStyle } from "react-native";
 
 import { HapticTab } from "@/components/HapticTab";
 import { IconSymbol } from "@/components/ui/IconSymbol";
 import TabBarBackground from "@/components/ui/TabBarBackground";
 import { Colors } from "@/constants/Colors";
 import { useColorScheme } from "@/hooks/useColorScheme";
-import { useAuth } from "@/lib/auth/AuthContext";
+import { useGoogleAuth } from "@/lib/auth/GoogleAuthProvider";
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated } = useGoogleAuth();
+  const pathname = usePathname();
+
+  // 현재 경로가 explore 인지 확인
+  const isExploreTab = pathname === "/(tabs)/explore";
 
   return (
     <Tabs
@@ -26,7 +30,7 @@ export default function TabLayout() {
             position: "absolute",
           },
           default: {},
-        }),
+        }) as ViewStyle,
       }}
     >
       <Tabs.Screen
@@ -45,6 +49,8 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="paperplane.fill" color={color} />
           ),
+          // Explore 탭에서는 탭 바 숨기기
+          tabBarStyle: { display: "none" } as ViewStyle,
         }}
       />
       <Tabs.Screen

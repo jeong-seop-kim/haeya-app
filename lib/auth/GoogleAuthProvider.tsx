@@ -79,6 +79,7 @@ export const GoogleAuthProvider: React.FC<{ children: React.ReactNode }> = ({
         email: userInfo.data?.user?.email || "",
         name: userInfo.data?.user?.name || "",
         picture: userInfo.data?.user?.photo || undefined,
+        token: userInfo.data?.idToken || "",
       };
 
       // 사용자 정보 저장
