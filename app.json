@@ -10,7 +10,16 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.haeyaexpo"
+      "bundleIdentifier": "com.anonymous.haeyaexpo",
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "com.googleusercontent.apps.388595372908-gm5av1a6nf92pi8t6kjhii5du01j9h3s"
+            ]
+          }
+        ]
+      }
     },
     "android": {
       "adaptiveIcon": {
